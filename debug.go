@@ -1,4 +1,4 @@
-package debug
+package godebug
 
 // func Hello() {
 //    In()
