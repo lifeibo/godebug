@@ -118,7 +118,7 @@ func PrintStacks(funcName string) string {
 	funcLock.Lock()
 	defer funcLock.Unlock()
 
-	rets := make([]string, 10)
+	rets := make([]string, 0, 10)
 
 	goids, ok := funcGoids[funcName]
 	if !ok {
